@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "saarthi",
+    "slug": "saarthi",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "saarthi"
+}
