@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Orbitron-Bold.ttf",
+      "sha1": "8459068027fc0e245f40e0681d7058131f9bddbb"
+    },
+    {
+      "path": "assets/fonts/RobotoCondensed-Regular.ttf",
+      "sha1": "e0d7acf2ca3dd0ff68f533797bb94b0580397e95"
+    },
+    {
+      "path": "assets/icon/car_accid_logo.png",
+      "sha1": "689a4eeccf65a4c6fe41d27bb6d47874edd24be7"
+    },
+    {
+      "path": "assets/icon/posterPortrait.jpg",
+      "sha1": "38666ae4ba7382a7d8281b9db6514154e98657b3"
+    }
+  ]
+}

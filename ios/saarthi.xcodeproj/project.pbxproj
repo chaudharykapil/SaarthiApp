@@ -14,6 +14,10 @@
 		96905EF65AED1B983A6B3ABC /* libPods-saarthi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-saarthi.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		0A207247E1B94C6DB3C77BD0 /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FE5C07856644D4AD8507E8 /* Orbitron-Bold.ttf */; };
+		2B25A8ED1C624BBB9B1ED4DB /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D6C0AC83A4398AD406EB2 /* RobotoCondensed-Regular.ttf */; };
+		BF406B651068422084E9CA3B /* car_accid_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBACA60C95464FD79AC7110E /* car_accid_logo.png */; };
+		4425030E3BD2480DB1F0228F /* posterPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E3319FE8E0042C0B3181AFE /* posterPortrait.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-saarthi/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		E8FE5C07856644D4AD8507E8 /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; name = "Orbitron-Bold.ttf"; path = "../assets/fonts/Orbitron-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D6D6C0AC83A4398AD406EB2 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBACA60C95464FD79AC7110E /* car_accid_logo.png */ = {isa = PBXFileReference; name = "car_accid_logo.png"; path = "../assets/icon/car_accid_logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E3319FE8E0042C0B3181AFE /* posterPortrait.jpg */ = {isa = PBXFileReference; name = "posterPortrait.jpg"; path = "../assets/icon/posterPortrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				F7790E05A83F432A9CA35ED4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -132,6 +141,18 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		F7790E05A83F432A9CA35ED4 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E8FE5C07856644D4AD8507E8 /* Orbitron-Bold.ttf */,
+				6D6D6C0AC83A4398AD406EB2 /* RobotoCondensed-Regular.ttf */,
+				CBACA60C95464FD79AC7110E /* car_accid_logo.png */,
+				8E3319FE8E0042C0B3181AFE /* posterPortrait.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,6 +217,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				0A207247E1B94C6DB3C77BD0 /* Orbitron-Bold.ttf in Resources */,
+				2B25A8ED1C624BBB9B1ED4DB /* RobotoCondensed-Regular.ttf in Resources */,
+				BF406B651068422084E9CA3B /* car_accid_logo.png in Resources */,
+				4425030E3BD2480DB1F0228F /* posterPortrait.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
